@@ -1,0 +1,35 @@
+/* Required rules for component logic */
+img {
+  width: 100%;
+}
+
+.default-image-top {
+  order: -1;
+}
+
+.default-image-right,
+.default-image-bottom {
+  order: 1;
+}
+/* End required rules */
+
+/* Polishing rules */
+.hero-container,
+.hero-backgroung {
+  padding: 10px;
+}
+
+.default-container {
+  padding: 10px;
+  background-clip: content-box;
+}
+
+.row.default-content {
+  margin: 0px;
+  padding: 15px 10px;
+}
+
+.hero-text {
+  font-size: x-large;
+}
+/* End polishing rules */
