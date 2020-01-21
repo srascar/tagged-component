@@ -25,7 +25,7 @@ export function displayResolver(
   modifierDefinitions,
   display
 ) {
-  const items = display.split(",").map(d => d.trim());
+  const items = display ? display.split(",").map(d => d.trim()) : [];
   let componentKey = "default";
   for (var componentIndex of Object.keys(componentDefinitions)) {
     if (items.includes(componentIndex)) {
